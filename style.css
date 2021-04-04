@@ -1,27 +1,43 @@
-#calculator-wrapper{
+#calculator-wrapper {
     margin: auto;
     margin-top: 50px;
     border: 2px solid black;
     width: fit-content;
-    
     overflow: hidden;
 }
-#display-screen{
+
+#display-screen {
     background-color: oldlace;
-    height: 100px;
-    width: 100%;
+    height: 150px;
+    width: 300px;
     overflow: hidden;
 }
-#buttons-wrapper{
+
+#buttons-wrapper {
     border: 2px solid black;
     display: grid;
     width: 300px;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
 }
-.button{
+
+.button {
     width: 75px;
     height: 50px;
     background-color: oldlace;
     float: left;
     text-align: center;
+}
+
+#mini-display {
+    max-height: 50px;
+    font-size: 20px;
+}
+
+#display {
+    font-size: 40px;
+}
+
+p {
+    display: inline-block;
+    margin: 0px;
 }
