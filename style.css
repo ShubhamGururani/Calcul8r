@@ -17,6 +17,8 @@
     overflow: hidden;
     position: relative;
     border-top: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
 }
 
 #buttons-wrapper {
@@ -57,6 +59,7 @@
 
 .operation {
     background-color: #CEC2FF;
+    font-weight: bolder;
 }
 
 .critical-operation {
