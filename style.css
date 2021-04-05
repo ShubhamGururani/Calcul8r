@@ -88,3 +88,8 @@ p {
     max-width: 250px;
     max-height: 100px;
 }
+
+#note {
+    margin-left: 42%;
+    margin-top: 5%;
+}

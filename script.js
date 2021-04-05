@@ -14,7 +14,7 @@ for (var i = 0; i < buttons.length; i++) {
             } else if (value == '-' && display.innerText.length == 0)
                 display.innerText = '-';
             else {
-                if (display.textContent != '.' && display.textContent != '') {
+                if (display.textContent != '.' && display.textContent != '' && display.textContent != '-') {
                     if (operator == null) {
                         operand1 = parseFloat(display.textContent);
                         operator = value;
@@ -99,7 +99,7 @@ for (var i = 0; i < buttons.length; i++) {
 
         } else if (value == 'pm') {
             if (operator == null) {
-                if (display.innerText.length != 0) {
+                if (display.innerText.length != 0 && display.innerText != '.' && display.innerText != '-') {
                     operand1 = parseFloat(display.innerText);
                     var result = eval(operand1 + " * (-1)");
                     display.innerText = result;
