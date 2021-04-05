@@ -5,40 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calcul8r</title>
+    <script src="https://kit.fontawesome.com/f6ad0f96e7.js" crossorigin="anonymous"></script>
+    <title>
+        Calcul8r
+    </title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <div id="calculator-wrapper">
     <div id="display-screen">
         <p id='mini-display'></p>
         <br>
+        <br>
         <p id="display"></p>
     </div>
     <div id="buttons-wrapper">
-        <div class="button" data-val="d">clear</div>
-        <div class="button" data-val="b">delete</div>
-        <div class="button" data-val="cr">cuberoot(x)</div>
-        <div class="button" data-val="%">%</div>
-        <div class="button" data-val="i">1/x</div>
-        <div class="button" data-val="s">x2</div>
-        <div class="button" data-val="r">root(x)</div>
-        <div class="button" data-val="/">/</div>
-        <div class="button" data-val='7'>7</div>
-        <div class="button" data-val='8'>8</div>
-        <div class="button" data-val='9'>9</div>
-        <div class="button" data-val="*">*</div>
-        <div class="button" data-val='4'>4</div>
-        <div class="button" data-val='5'>5</div>
-        <div class="button" data-val='6'>6</div>
-        <div class="button" data-val="+">+</div>
-        <div class="button" data-val='1'>1</div>
-        <div class="button" data-val="2">2</div>
-        <div class="button" data-val='3'>3</div>
-        <div class="button" data-val='-'>-</div>
-        <div class="button" data-val='pm'>+/-</div>
-        <div class="button" data-val='0'>0</div>
-        <div class="button" data-val='.'>.</div>
-        <div class="button" data-val='='>=</div>
+
+        <div class="button operation" data-val="cr">&#8731x</div>
+        <div class="button operation" data-val="%">%</div>
+        <div class="button critical-operation" data-val="d">AC</div>
+        <div class="button critical-operation" data-val="b">
+            <i class="fas fa-backspace"></i>
+        </div>
+        <div class="button operation" data-val="r">&#8730x</div>
+        <div class="button operation" data-val="s">x<sup>2</sup> </div>
+        <div class="button operation" data-val="i"> <sup>1</sup> / <sub>x</sub> </div>
+        <div class="button operation" data-val="/">/</div>
+        <div class="button digit" data-val='7'>7</div>
+        <div class="button digit" data-val='8'>8</div>
+        <div class="button digit" data-val='9'>9</div>
+        <div class="button operation" data-val="*">*</div>
+        <div class="button digit" data-val='4'>4</div>
+        <div class="button digit" data-val='5'>5</div>
+        <div class="button digit" data-val='6'>6</div>
+        <div class="button operation" data-val="+">+</div>
+        <div class="button digit" data-val='1'>1</div>
+        <div class="button digit" data-val="2">2</div>
+        <div class="button digit" data-val='3'>3</div>
+        <div class="button operation" data-val='-'>-</div>
+        <div class="button operation" data-val='pm'>+/-</div>
+        <div class="button digit" data-val='0'>0</div>
+        <div class="button operation" data-val='.'>.</div>
+        <div class="button digit" data-val='='>=</div>
     </div>
 </div>
 
