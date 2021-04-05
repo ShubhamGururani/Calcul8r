@@ -14,7 +14,7 @@ for (var i = 0; i < buttons.length; i++) {
             } else if (value == '-' && display.innerText.length == 0)
                 display.innerText = '-';
             else {
-                if (display.textContent != '.') {
+                if (display.textContent != '.' && display.textContent != '') {
                     if (operator == null) {
                         operand1 = parseFloat(display.textContent);
                         operator = value;
