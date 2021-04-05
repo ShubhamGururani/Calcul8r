@@ -39,10 +39,13 @@
     transition: background-color 0.4s;
     font-size: 20px;
     border: 1px solid white;
+    margin: auto;
 }
 
 .button:hover {
     background-color: #DCB6D5;
+    width: 73px;
+    height: 48px;
 }
 
 .digit {
