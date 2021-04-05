@@ -7,10 +7,12 @@
 }
 
 #display-screen {
-    background-color: oldlace;
+    background-color: #DCB6D5;
     height: 150px;
-    width: 300px;
+    width: 302px;
     overflow: hidden;
+    position: relative;
+    border: 1px solid white;
 }
 
 #buttons-wrapper {
@@ -23,21 +25,47 @@
 .button {
     width: 75px;
     height: 50px;
-    background-color: oldlace;
     float: left;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.4s;
+    font-size: 20px;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: #DCB6D5;
+}
+
+.digit {
+    background-color: #B3B3F1;
 }
 
 #mini-display {
     max-height: 50px;
     font-size: 20px;
+    right: 10px;
+    position: absolute;
+}
+
+.operation {
+    background-color: #CEC2FF;
+}
+
+.critical-operation {
+    background-color: #CF8BA9;
 }
 
 #display {
     font-size: 40px;
+    right: 10px;
+    position: absolute;
 }
 
 p {
     display: inline-block;
     margin: 0px;
+    max-width: 250px;
+    max-height: 100px;
 }
