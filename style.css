@@ -1,9 +1,13 @@
 #calculator-wrapper {
     margin: auto;
     margin-top: 50px;
-    border: 2px solid black;
+    border: 7px solid #2F0147;
     width: fit-content;
     overflow: hidden;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #display-screen {
@@ -12,11 +16,12 @@
     width: 302px;
     overflow: hidden;
     position: relative;
-    border: 1px solid white;
+    border-top: 1px solid white;
 }
 
 #buttons-wrapper {
-    border: 2px solid black;
+    border-top: 4px solid #2F0147;
+    border-right: 2px solid #2F0147;
     display: grid;
     width: 300px;
     grid-template-columns: repeat(4, 1fr);
@@ -45,8 +50,9 @@
 #mini-display {
     max-height: 50px;
     font-size: 20px;
-    right: 10px;
+    right: 50px;
     position: absolute;
+    top: 15px;
 }
 
 .operation {
@@ -61,6 +67,7 @@
     font-size: 40px;
     right: 10px;
     position: absolute;
+    top: 50px;
 }
 
 p {
